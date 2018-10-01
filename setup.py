@@ -16,9 +16,7 @@ setup(
     ],
     zip_safe=False,
     py_modules=['pypigit_version'],
-    install_requires=[
-        'setuptools >= 8.0'
-    ],
+    install_requires=[],
     entry_points="""
         [distutils.setup_keywords]
         git_version = pypigit_version:git_version
